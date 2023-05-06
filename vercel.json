@@ -7,6 +7,9 @@
   "routes": [
     {
         "src": "api/v1/health", "dest": "api/v1/health"
+    },
+    {
+        "src": "api/v1/user", "dest": "api/v1/user"
     }
   ]
 }

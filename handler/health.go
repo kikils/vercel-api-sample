@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
-func Health(w http.ResponseWriter, r *http.Request) {
+func Health(w http.ResponseWriter, r *http.Request) error {
 	fmt.Fprintf(w, "ok")
+	return nil
 }
